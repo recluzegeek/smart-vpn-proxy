@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 .reveal {
   opacity: 0;
   -webkit-transform: translate3d(0, 100px, 0);
-          transform: translate3d(0, 100px, 0);
+  transform: translate3d(0, 100px, 0);
   -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
   transition: opacity 0.8s, -webkit-transform 0.8s;
   transition: opacity 0.8s, transform 0.8s;
@@ -29,7 +29,7 @@ html {
 .reveal_visible {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 header {
@@ -49,39 +49,21 @@ header .navbar-btn a {
 }
 
 header .navbar-btn .btn-1 {
-  color: #0B132A;
+  color: #0b132a;
   font-weight: 400;
   margin-right: 12px;
 }
 
 header .navbar-btn .btn-fill {
-  border: 1px solid #F53838;
+  border: 1px solid #f53838;
   border-radius: 50px;
-  color: #F53838;
+  color: #f53838;
   padding: 10px 20px;
 }
 
 header .navbar-light .navbar-toggler {
-  color: #F53838;
+  color: #f53838;
   border: none;
-}
-
-/* Banner section */
-.banner {
-  margin-top: 95px;
-}
-
-.banner .content-box h1 {
-  line-height: 50px;
-  padding-bottom: 25px;
-}
-
-.banner .content-box p {
-  line-height: 30px;
-  font-size: 18px;
-  margin-bottom: 80px;
-  font-weight: 300;
-  color: #4f5665b7;
 }
 
 .banner .content-box .button-fill {
@@ -89,49 +71,12 @@ header .navbar-light .navbar-toggler {
 }
 
 .banner .content-box .button-fill a {
-  background-color: #F53838;
+  background-color: #f53838;
   text-decoration: none;
   color: white;
   padding: 15px 30px;
   border: none;
   border-radius: 10px;
-}
-
-.banner .user-count {
-  margin: 100px 0;
-  -webkit-box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
-          box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
-}
-
-.banner .user-count .count-box {
-  padding: 60px;
-}
-
-.banner .user-count .count-box .icon {
-  background-color: #FFECEC;
-  color: #F53838;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.banner .user-count .count-box .count-item #counters_1, .banner .user-count .count-box .count-item #counters_2, .banner .user-count .count-box .count-item #counters_3 {
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.banner .user-count .count-box .count-item p {
-  color: #4f5665b7;
 }
 
 .features {
@@ -158,7 +103,7 @@ header .navbar-light .navbar-toggler {
 
 .features .content-box .f-list li .icon {
   margin-right: 10px;
-  background-color: #2FAB73;
+  background-color: #2fab73;
   color: white;
   height: 30px;
   width: 30px;
@@ -166,206 +111,14 @@ header .navbar-light .navbar-toggler {
   border-radius: 50%;
 }
 
-.pricing {
-  margin: 200px 0;
-}
-
-.pricing .content {
-  margin-bottom: 25px;
-}
-
-.pricing .content h1 {
-  margin-bottom: 15px;
-}
-
-.pricing .content h5 {
-  font-weight: 300;
-  color: #4f5665b7;
-  margin-bottom: 40px;
-}
-
-.pricing .pricing-cards .plans {
-  padding-bottom: 20px;
-}
-
-.pricing .pricing-cards .plans .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: #4f5665b7 2px solid;
-  border-radius: 15px;
-  margin: auto;
-}
-
-.pricing .pricing-cards .plans .card img {
-  width: 50%;
-  padding: 50px 0 10px 0;
-}
-
-.pricing .pricing-cards .plans .card .card-body {
-  text-align: center;
-  margin-bottom: 12px;
-}
-
-.pricing .pricing-cards .plans .card .card-body .list-group-flush > .list-group-item {
-  border-width: 0 !important;
-}
-
-.pricing .pricing-cards .plans .card .card-body .list-group-item {
-  padding: 0 !important;
-}
-
-.pricing .pricing-cards .plans .card .card-body li {
-  color: #4f5665b7;
-  font-weight: 300;
-}
-
-.pricing .pricing-cards .plans .card .card-body li .icon {
-  margin-right: 10px;
-  color: #2FAB73;
-  height: 30px;
-  width: 30px;
-  padding: 6px;
-  border-radius: 50%;
-}
-
-.pricing .pricing-cards .plans .card h5 {
-  padding: 20px 0 30px 0;
-  font-weight: 700;
-}
-
-.pricing .pricing-cards .plans .card h5 span {
-  font-weight: 400;
-  color: #4f5665b7;
-}
-
-.pricing .pricing-cards .plans .card .btn-subscribe {
-  border: 2px solid #F53838;
-  padding: 12px 40px;
-  color: #F53838;
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 20px;
-  -webkit-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.pricing .pricing-cards .plans .card .btn-subscribe:hover {
-  background-color: #F53838;
-  color: white;
-}
-
-.pricing .pricing-cards .plans .active {
-  border-radius: #F53838;
-}
-
-.location h5 {
-  font-weight: 300;
-  color: #4f5665b7;
-  margin: 30px 0 50px 0;
-}
-
-.location .map {
-  padding: 50px 0;
-}
-
-.clients {
-  margin: 100px;
-}
-
-.clients img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-.clients img:hover {
-  -webkit-filter: grayscale(1%);
-  filter: grayscale(1%);
-  cursor: pointer;
-}
-
-.testimonials {
-  margin: 150px 0;
-}
-
-.testimonials h5 {
-  font-weight: 300;
-  color: #4f5665b7;
-  margin: 30px 0 50px 0;
-}
-
-.testimonials .testimonial-cards {
-  margin-top: 100px;
-}
-
-.testimonials .testimonial-cards .card {
-  padding: 15px;
-  border-radius: 15px;
-  border: 2px solid #4f5665b7;
-}
-
-.testimonials .testimonial-cards .card .row {
-  margin-bottom: 20px;
-}
-
-.testimonials .testimonial-cards .card .row img {
-  width: 60%;
-}
-
-.testimonials .testimonial-cards .card .row h5 {
-  margin: 0;
-  font-weight: 500;
-  color: #0B132A;
-}
-
-.testimonials .testimonial-cards .card .row p {
-  font-size: 18px;
-}
-
-.testimonials .testimonial-cards .card .row .icon {
-  color: #FEA250;
-  padding: 3px;
-}
-
-.testimonials .testimonial-cards .card .row .text-muted {
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.testimonials .testimonial-cards .card p {
-  font-size: 16px;
-  color: #0B132A;
-  line-height: 30px;
-}
-
-.testimonials .testimonial-cards .card:hover {
-  border-radius: 15px;
-  border: 2px solid #F53838;
-  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
-  cursor: pointer;
-}
-
 footer {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 footer .subscribe {
   background-color: white;
   -webkit-box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
-          box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
+  box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
   border-radius: 5px;
   position: relative;
   top: -90px;
@@ -385,14 +138,14 @@ footer .subscribe .row .btn-subscribe {
 }
 
 footer .subscribe .row .btn-subscribe a {
-  background-color: #F53838;
+  background-color: #f53838;
   text-decoration: none;
   color: white;
   padding: 15px 30px;
   border: none;
   border-radius: 10px;
   -webkit-box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
-          box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
+  box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
 }
 
 footer .footer-links {
@@ -418,7 +171,7 @@ footer .footer-links .col-right .social-icons {
 }
 
 footer .footer-links .col-right .social-icons .icon {
-  color: #F53838;
+  color: #f53838;
   background-color: white;
   height: 40px;
   width: 40px;
@@ -426,7 +179,7 @@ footer .footer-links .col-right .social-icons .icon {
   margin-right: 5px;
   padding: 10px;
   -webkit-box-shadow: 4px 2px 3px rgba(247, 79, 79, 0.144);
-          box-shadow: 4px 2px 3px rgba(247, 79, 79, 0.144);
+  box-shadow: 4px 2px 3px rgba(247, 79, 79, 0.144);
 }
 
 footer .footer-links .col-left h5 {
@@ -442,13 +195,13 @@ footer .footer-links .col-left .links li {
 
 footer .footer-links .col-left .links li:hover {
   cursor: pointer;
-  color: #F53838;
+  color: #f53838;
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
 }
 
 footer .attribution a {
   text-decoration: none;
-  color: #F53838;
+  color: #f53838;
 }
 /*# sourceMappingURL=style.css.map */
