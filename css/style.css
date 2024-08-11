@@ -101,6 +101,12 @@ header .navbar-light .navbar-toggler {
   border-width: 0 !important;
 }
 
+#get-started .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
 .features .content-box .f-list li .icon {
   margin-right: 10px;
   background-color: #2fab73;
